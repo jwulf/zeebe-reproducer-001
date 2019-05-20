@@ -12,9 +12,10 @@ What actually happens is that the message is caught, but the arrow is not green.
 
 # Steps to Reproduce
 
-1. Start the broker using `docker-compose` and this [configuration](https://github.com/zeebe-io/zeebe-docker-compose/tree/master/simple-monitor):
+1. Start the broker using `docker-compose` and the `simple-monitor` configuration from [here](https://github.com/zeebe-io/zeebe-docker-compose/tree/master/simple-monitor):
 
 ```
 docker-compose up
 ```
 
+2. Deploy the BPMN file
